@@ -1,0 +1,6 @@
+@ClickCity.Api_HostAddress = http://localhost:5049
+
+GET {{ClickCity.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

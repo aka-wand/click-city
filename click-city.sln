@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickCity.Domain", "ClickCity.Domain\ClickCity.Domain.csproj", "{32036D91-303F-43EC-BA26-65CD9BBD8F9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2BC1E096-6990-4ED0-9978-EB662F55B8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickCity.Application", "ClickCity.Application\ClickCity.Application.csproj", "{0F4B1206-A612-4131-B301-F70854A38F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{AA02900D-54BD-4DDC-ADDD-CE63ECE2A129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driving", "Driving", "{5888D9B9-F7BC-42AF-9D2B-21F94763208E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driven", "Driven", "{A6A8696E-5B20-4FF8-A02D-2D3A92643316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickCity.Api", "ClickCity.Api\ClickCity.Api.csproj", "{D25CAF1D-7B76-485A-8508-8D61D026F6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickCity.Infra.Repository.Postgres", "ClickCity.Infra.Repository.Postgres\ClickCity.Infra.Repository.Postgres.csproj", "{054B1B57-7858-4F7A-A093-51832CA3D519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32036D91-303F-43EC-BA26-65CD9BBD8F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32036D91-303F-43EC-BA26-65CD9BBD8F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32036D91-303F-43EC-BA26-65CD9BBD8F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32036D91-303F-43EC-BA26-65CD9BBD8F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4B1206-A612-4131-B301-F70854A38F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4B1206-A612-4131-B301-F70854A38F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4B1206-A612-4131-B301-F70854A38F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4B1206-A612-4131-B301-F70854A38F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25CAF1D-7B76-485A-8508-8D61D026F6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25CAF1D-7B76-485A-8508-8D61D026F6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25CAF1D-7B76-485A-8508-8D61D026F6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25CAF1D-7B76-485A-8508-8D61D026F6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054B1B57-7858-4F7A-A093-51832CA3D519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054B1B57-7858-4F7A-A093-51832CA3D519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054B1B57-7858-4F7A-A093-51832CA3D519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054B1B57-7858-4F7A-A093-51832CA3D519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32036D91-303F-43EC-BA26-65CD9BBD8F9B} = {2BC1E096-6990-4ED0-9978-EB662F55B8EF}
+		{0F4B1206-A612-4131-B301-F70854A38F81} = {2BC1E096-6990-4ED0-9978-EB662F55B8EF}
+		{5888D9B9-F7BC-42AF-9D2B-21F94763208E} = {AA02900D-54BD-4DDC-ADDD-CE63ECE2A129}
+		{A6A8696E-5B20-4FF8-A02D-2D3A92643316} = {AA02900D-54BD-4DDC-ADDD-CE63ECE2A129}
+		{D25CAF1D-7B76-485A-8508-8D61D026F6F5} = {5888D9B9-F7BC-42AF-9D2B-21F94763208E}
+		{054B1B57-7858-4F7A-A093-51832CA3D519} = {A6A8696E-5B20-4FF8-A02D-2D3A92643316}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB21435-0D17-4998-9ED9-D8CDD2614B5F}
+	EndGlobalSection
+EndGlobal
